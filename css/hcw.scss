@@ -48,8 +48,12 @@ $alinhamentosDeTexto: ('left': left, 'right': right, 'center': center, 'justify'
 
 * { margin: 0; padding: 0; box-sizing: content-box; }
 p { text-indent: 15px; }
+// Cores de fundo
 @include listBackgroundColor($coresFundoClaro, $black);
 @include listBackgroundColor($coresFundoEscuro, $white);
+// Cor de texto
 @include listTextAndBorderColor($cores);
+// Alinhamentos de texto
 @include listAligns($alinhamentosDeTexto);
+// Container
 @include listContainer($container);
