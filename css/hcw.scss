@@ -1,0 +1,55 @@
+$purple: #936EDB;
+$black-gray: #393939;
+$black: #000000;
+$white: #ffffff;
+$gray: #cccccc;
+
+$coresFundoEscuro: ('purple': $purple, 'black-gray': $black-gray, 'black': $black);
+$coresFundoClaro: ('white': $white, 'gray': $gray);
+$cores: map-merge($coresFundoClaro, $coresFundoEscuro);
+$container: ('border': 1px solid $purple, 'border-radius': 5px, 'background-color': $purple, 'color': $white, 'padding': 10px, 'margin': 10px, 'min-width': 300px);
+$alinhamentosDeTexto: ('left': left, 'right': right, 'center': center, 'justify': justify);
+
+@mixin listContainer($lista){
+  .hcw-container {
+      @each $propriedade, $valor in $lista{
+        #{$propriedade}: #{$valor};
+      }
+  }
+}
+@mixin listAligns($lista){
+  @each $nome, $valor in $lista{
+    .hcw-text-#{$nome} {
+      text-align: $valor;
+    }
+  }
+}
+@mixin listBackgroundColor($lista, $cor){
+    @each $nome, $valor in $lista{
+      .hcw-background-#{$nome}, .hcw-hover-#{$nome}:hover{
+        background-color: $valor !important;
+        color: $cor !important;
+      }
+    }
+}
+
+@mixin listTextAndBorderColor($lista){
+  @each $nome, $valor in $lista{
+    .hcw-text-#{$nome}, .hcw-text-hover-#{$nome}:hover{
+      color: $valor !important;
+    }
+  }
+  @each $nome, $valor in $lista{
+    .hcw-text-#{$nome}, .hcw-border-hover-#{$nome}:hover{
+      border-color: $valor !important;
+    }
+  }
+}
+
+* { margin: 0; padding: 0; box-sizing: content-box; }
+p { text-indent: 15px; }
+@include listBackgroundColor($coresFundoClaro, $black);
+@include listBackgroundColor($coresFundoEscuro, $white);
+@include listTextAndBorderColor($cores);
+@include listAligns($alinhamentosDeTexto);
+@include listContainer($container);
