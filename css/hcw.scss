@@ -1,3 +1,5 @@
+@import "reset/reset.scss";
+
 $purple: #936EDB;
 $black-gray: #393939;
 $black: #000000;
@@ -28,6 +30,7 @@ $alinhamentosDeTexto: ('left': left, 'right': right, 'center': center, 'justify'
     @each $nome, $valor in $lista{
       .hcw-background-#{$nome}, .hcw-hover-#{$nome}:hover{
         background-color: $valor !important;
+        border-color: $valor !important;
         color: $cor !important;
       }
     }
@@ -46,8 +49,17 @@ $alinhamentosDeTexto: ('left': left, 'right': right, 'center': center, 'justify'
   }
 }
 
-* { margin: 0; padding: 0; box-sizing: content-box; }
 p { text-indent: 15px; }
+.hcw-card, .hcw-card-2 { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12); }
+.hcw-card-4, .hcw-hover-shadown:hover{ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12), 0 4px 20px 0 rgba(0, 0, 0, 0.19); }
+
+// Formulários
+.hcw-input { padding: 8px; display:  block; border: none; border-bottom: 1px solid $purple; width: 99%; min-width: 300px; }
+.hcw-animate-input { transition: width 0.4s easy-in-out }
+.hcw-animate-input:focus{ width: 99% !important; }
+.hcw-checkbox, .hcw-radiobutton { width: 20px; height: 20px; position: relative; top: 5px; }
+
+
 // Cores de fundo
 @include listBackgroundColor($coresFundoClaro, $black);
 @include listBackgroundColor($coresFundoEscuro, $white);
