@@ -9,5 +9,6 @@ a { text-decoration: none; color: inherit; background: inherit; }
 textarea:focus, input:focus {
   outline: none;
   border: none;
+  border: 3px solid blue; 
   border-bottom: blue;
 }
