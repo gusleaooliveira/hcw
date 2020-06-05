@@ -6,8 +6,4 @@
 
 a { text-decoration: none; color: inherit; background: inherit; }
 
-textarea:focus, input:focus {
-  outline: none;
-  border: none;
-  border-bottom: 1.5px solid blue;
-}
+textarea:focus, input:focus { outline: none; border: none; }

@@ -21,6 +21,10 @@ $listaCoresClaro: ('blue-facebook': #5061A6, 'blue-messenger': #0187FF, 'blue-te
         .border-#{$nome}-hover:hover{
           border: 1px solid $valor !important;
         }
+        .border-bottom-#{$nome},
+        .border-bottom-#{$nome}-hover:hover{
+          border-bottom: 1px solid $valor !important;
+        }
         .text-#{$nome},
         .text-#{$nome}-hover:hover{
           color: $valor !important;
