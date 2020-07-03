@@ -1311,6 +1311,11 @@ textarea:focus, input:focus {
   max-width: 750px;
 }
 
+.image-card {
+  width: 150px;
+  height: 150px;
+}
+
 .icon-large {
   width: 32px;
   height: 32px;
