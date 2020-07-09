@@ -1354,7 +1354,7 @@ textarea:focus, input:focus {
   transition: width 2s;
 }
 
-.input-mini:hover {
+.input-mini:hover, .input-mini:focus {
   width: 100% !important;
 }
 
