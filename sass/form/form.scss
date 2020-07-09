@@ -7,11 +7,12 @@
   color: inherit;
   background-color: inherit;
 }
-.input-mini {
+.input-mini-hover, .input-mini-focus {
   width: 35% !important;
   transition: width 2s;
 }
-.input-mini:hover, .input-mini:focus{
+.input-mini-hover .input-mini-hover:hover, 
+.input-mini-focus .input-mini-focus:focus{
   width: 100% !important;
 }
 .check, .radio {
