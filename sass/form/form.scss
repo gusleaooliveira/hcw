@@ -9,6 +9,10 @@
 }
 .input-mini {
   width: 35% !important;
+  transition: width 2s;
+}
+.input-mini:hover{
+  width: 100% !important;
 }
 .check, .radio {
   width: 16px;
