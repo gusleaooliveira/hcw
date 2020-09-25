@@ -21,7 +21,9 @@ Caso queira usar diretamente coloque esse código no `header`:
 
 ```
 
-<iframe src="examples/alinhamento-texto.html" height="200" width="200" title="Alinhamento de texto"></iframe>
+
+
+<iframe src="examples/alinhamento-texto.html" height="200" width="600" title="Alinhamento de texto"></iframe>
 
 ### Cores
 
