@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sass --watch sass/main.scss css/hcw.min.css --style compressed
+sass --watch sass/main.scss docs/css/hcw.min.css --style compressed
