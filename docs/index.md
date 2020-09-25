@@ -12,18 +12,30 @@ Caso queira usar diretamente coloque esse código no `header`:
 ---
 
 ## Como usar
-### Alinhamento de texto
+### Texto
+#### Alinhamento de texto
 ```html
 <p class="text-center">Texto alinhado ao centro</p>
 <p class="text-left">Texto alinhado a esquerda</p>
 <p class="text-right">Texto alinhado a direita</p>
 <p class="text-justify">Texto justificado ... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, voluptatem? Exercitationem voluptatem sint laboriosam accusantium laborum provident rerum! Maxime voluptatum necessitatibus sequi nam unde quas repellendus? Earum fuga esse a.</p>
-
 ```
 
-
-
 <iframe src="examples/alinhamento-texto.html" height="200" width="600" title="Alinhamento de texto"></iframe>
+
+#### Tamanho de texto
+```html
+<p class="text-tiny">Texto de exemplo</p>
+<p class="text-small">Texto de exemplo</p>
+<p class="text-medium">Texto de exemplo</p>
+<p class="text-large">Texto de exemplo</p>
+<p class="text-xlarge">Texto de exemplo</p>
+<p class="text-xxlarge">Texto de exemplo</p>
+<p class="text-xxxlarge">Texto de exemplo</p>
+<p class="text-jumbo">Texto de exemplo</p>
+```
+
+<iframe src="examples/tamanho-texto.html" height="200" width="600" title="Alinhamento de texto"></iframe>
 
 ### Cores
 
