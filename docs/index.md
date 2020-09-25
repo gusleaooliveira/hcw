@@ -11,6 +11,28 @@ Caso queira usar diretamente coloque esse código no `header`:
 
 ---
 
+## Como usar
+### Alinhamento de texto
+```html
+<p class="text-center">Texto alinhado ao centro</p>
+<p class="text-left">Texto alinhado a esquerda</p>
+<p class="text-right">Texto alinhado a direita</p>
+<p class="text-justify">Texto justificado ... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, voluptatem? Exercitationem voluptatem sint laboriosam accusantium laborum provident rerum! Maxime voluptatum necessitatibus sequi nam unde quas repellendus? Earum fuga esse a.</p>
+
+```
+
+<iframe src="examples/alinhamento-texto.html" height="200" width="200" title="Alinhamento de texto"></iframe>
+
+### Cores
+
+```html
+<div class="">
+    <p></p>
+</div>
+```
+
+---
+
 # Criador
 
 Olá me chamo Gustavo, e criei este material, para mais informações, clique nos links abaixo:
