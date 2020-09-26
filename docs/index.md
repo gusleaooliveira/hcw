@@ -1,12 +1,12 @@
 # hcw.css
 
-O hcw.css é um microframework css feito com [sass](https://sass-lang.com/documentation/syntax), para baixar clique [aqui](https://gusleaooliveira.github.io/hcw/docs/css/hcw.min.css).
+O hcw.css é um microframework css feito com [sass](https://sass-lang.com/documentation/syntax), para baixar clique [aqui](https://gusleaooliveira.github.io/hcw/css/hcw.min.css).
 
 
 Caso queira usar diretamente coloque esse código no `header`:
 
 ```html
-<link rel="stylesheet" href="https://gusleaooliveira.github.io/hcw/docs/css/hcw.min.css">
+<link rel="stylesheet" href="https://gusleaooliveira.github.io/hcw/css/hcw.min.css">
 ```
 
 ---
@@ -22,6 +22,16 @@ Caso queira usar diretamente coloque esse código no `header`:
 ```
 
 <iframe src="examples/alinhamento-texto.html" height="200" width="600" title="Alinhamento de texto"></iframe>
+
+#### Indentação de texto
+```html
+<p class="text-indent text-justify">Texto identado normal ... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, voluptatem? Exercitationem voluptatem sint laboriosam accusantium laborum provident rerum! Maxime voluptatum necessitatibus sequi nam unde quas repellendus? Earum fuga esse a.</p>
+<p class="text-indent-15 text-justify">Texto identado maior  ... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, voluptatem? Exercitationem voluptatem sint laboriosam accusantium laborum provident rerum! Maxime voluptatum necessitatibus sequi nam unde quas repellendus? Earum fuga esse a.</p>
+<p class="text-indent-25 text-justify">Texto identado maior ainda ... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, voluptatem? Exercitationem voluptatem sint laboriosam accusantium laborum provident rerum! Maxime voluptatum necessitatibus sequi nam unde quas repellendus? Earum fuga esse a.</p>
+```
+
+<iframe src="examples/identacao-texto.html" height="200" width="600" title="Identação de texto"></iframe>
+
 
 #### Tamanho de texto
 ```html
@@ -87,6 +97,8 @@ Caso queira usar diretamente coloque esse código no `header`:
 ```
 
 <iframe src="examples/cores.html" height="600" width="700" title="Cores"></iframe>
+
+### 
 
 ---
 
