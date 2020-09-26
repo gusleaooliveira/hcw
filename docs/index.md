@@ -35,7 +35,7 @@ Caso queira usar diretamente coloque esse código no `header`:
 <p class="text-jumbo">Texto de exemplo <b>jumbo</b></p>
 ```
 
-<iframe src="examples/tamanho-texto.html" height="260" width="600" title="Tamanho de texto"></iframe>
+<iframe src="examples/tamanho-texto.html" height="300" width="700" title="Tamanho de texto"></iframe>
 
 ### Cores
 
@@ -86,7 +86,7 @@ Caso queira usar diretamente coloque esse código no `header`:
 </div>
 ```
 
-<iframe src="examples/cores.html" height="200" width="600" title="Cores"></iframe>
+<iframe src="examples/cores.html" height="300" width="700" title="Cores"></iframe>
 
 ---
 
