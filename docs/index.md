@@ -25,17 +25,17 @@ Caso queira usar diretamente coloque esse código no `header`:
 
 #### Tamanho de texto
 ```html
-<p class="text-tiny">Texto de exemplo</p>
-<p class="text-small">Texto de exemplo</p>
-<p class="text-medium">Texto de exemplo</p>
-<p class="text-large">Texto de exemplo</p>
-<p class="text-xlarge">Texto de exemplo</p>
-<p class="text-xxlarge">Texto de exemplo</p>
-<p class="text-xxxlarge">Texto de exemplo</p>
-<p class="text-jumbo">Texto de exemplo</p>
+<p class="text-tiny">Texto de exemplo <b>tiny</b></p>
+<p class="text-small">Texto de exemplo <b>small</b></p>
+<p class="text-medium">Texto de exemplo <b>medium</b></p>
+<p class="text-large">Texto de exemplo <b>large</b></p>
+<p class="text-xlarge">Texto de exemplo <b>xlarge</b></p>
+<p class="text-xxlarge">Texto de exemplo <b>xxlarge</b></p>
+<p class="text-xxxlarge">Texto de exemplo <b>xxxlarge</b></p>
+<p class="text-jumbo">Texto de exemplo <b>jumbo</b></p>
 ```
 
-<iframe src="examples/tamanho-texto.html" height="200" width="600" title="Alinhamento de texto"></iframe>
+<iframe src="examples/tamanho-texto.html" height="260" width="600" title="Alinhamento de texto"></iframe>
 
 ### Cores
 
