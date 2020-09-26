@@ -1,48 +1,64 @@
-.grid { display: flex; }
+.flex { display: flex; }
 
-.grid-row { flex-direction: row; }
-.grid-row-reverse { flex-direction: row-reverse; }
-.grid-column { flex-direction: column; }
-.grid-column-reverse { flex-direction: column-reverse; }
+.flex-row { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-column { flex-direction: column; }
+.flex-column-reverse { flex-direction: column-reverse; }
 
-.grid-wrap { flex-wrap: wrap; }
-.grid-wrap-reverse { flex-wrap: wrap-reverse; }
-.grid-nowrap { flex-wrap: nowrap; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
+.flex-nowrap { flex-wrap: nowrap; }
 
-.grid-flow-row-nowrap { flex-flow: row nowrap; }
-.grid-flow-row-wrap { flex-flow: row wrap; }
-.grid-flow-column-wrap { flex-flow: column nowrap; }
+.flex-flow-row-nowrap { flex-flow: row nowrap; }
+.flex-flow-row-wrap { flex-flow: row wrap; }
+.flex-flow-column-wrap { flex-flow: column nowrap; }
 
 
-.grid-justify-start { justify-content: flex-start; }
-.grid-justify-end { justify-content: flex-end; }
-.grid-justify-center { justify-content: center; }
-.grid-justify-between { justify-content: space-between; }
-.grid-justify-arround { justify-content: space-around; }
+.flex-justify-start { justify-content: flex-start; }
+.flex-justify-end { justify-content: flex-end; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-between { justify-content: space-between; }
+.flex-justify-arround { justify-content: space-around; }
 
-.grid-align-items-stretch { align-items: stretch; }
-.grid-align-items-start { align-items: flex-start; }
-.grid-align-items-end { align-items: flex-end; }
-.grid-align-items-center { align-items: center; }
-.grid-align-items-base-line { align-items: baseline; }
+.flex-align-items-stretch { align-items: stretch; }
+.flex-align-items-start { align-items: flex-start; }
+.flex-align-items-end { align-items: flex-end; }
+.flex-align-items-center { align-items: center; }
+.flex-align-items-base-line { align-items: baseline; }
 
-.grid-align-stretch { align-content: stretch; }
-.grid-align-start { align-content: flex-start; }
-.grid-align-end { align-content: flex-end; }
-.grid-align-center { align-content: center; }
-.grid-align-between { align-content: space-between; }
-.grid-align-arround { align-content: space-around; }
+.flex-align-stretch { align-content: stretch; }
+.flex-align-start { align-content: flex-start; }
+.flex-align-end { align-content: flex-end; }
+.flex-align-center { align-content: center; }
+.flex-align-between { align-content: space-between; }
+.flex-align-arround { align-content: space-around; }
 
-.grid-grow-0 { flex-grow: 0; }
-.grid-grow-1 { flex-grow: 1; }
-.grid-grow-2 { flex-grow: 2; }
-.grid-grow-3 { flex-grow: 3; }
-.grid-grow-4 { flex-grow: 4; }
-.grid-grow-5 { flex-grow: 5; }
-.grid-grow-6 { flex-grow: 6; }
-.grid-grow-7 { flex-grow: 7; }
-.grid-grow-8 { flex-grow: 8; }
-.grid-grow-9 { flex-grow: 9; }
-.grid-grow-10 { flex-grow: 10; }
-.grid-grow-11 { flex-grow: 11; }
-.grid-grow-12 { flex-grow: 12; }
+.flex-grow-0 { flex-grow: 0; }
+.flex-grow-1 { flex-grow: 1; }
+.flex-grow-2 { flex-grow: 2; }
+.flex-grow-3 { flex-grow: 3; }
+.flex-grow-4 { flex-grow: 4; }
+.flex-grow-5 { flex-grow: 5; }
+.flex-grow-6 { flex-grow: 6; }
+.flex-grow-7 { flex-grow: 7; }
+.flex-grow-8 { flex-grow: 8; }
+.flex-grow-9 { flex-grow: 9; }
+.flex-grow-10 { flex-grow: 10; }
+.flex-grow-11 { flex-grow: 11; }
+.flex-grow-12 { flex-grow: 12; }
+
+
+.grid { display: grid;  }
+
+.column-1 { grid-template-columns:  auto; }
+.column-2 { grid-template-columns:  auto auto; }
+.column-3 { grid-template-columns:  auto auto auto; }
+.column-4 { grid-template-columns:  auto auto auto auto; }
+.column-5 { grid-template-columns:  auto auto auto auto auto; }
+.column-6 { grid-template-columns:  auto auto auto auto auto auto; }
+.column-7 { grid-template-columns:  auto auto auto auto auto auto auto; }
+.column-8 { grid-template-columns:  auto auto auto auto auto auto auto auto; }
+.column-9 { grid-template-columns:  auto auto auto auto auto auto auto auto auto; }
+.column-10 { grid-template-columns: auto auto auto auto auto auto auto auto auto auto; }
+.column-11 { grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto; }
+.column-12 { grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto; }
