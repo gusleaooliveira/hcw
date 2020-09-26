@@ -86,7 +86,7 @@ Caso queira usar diretamente coloque esse código no `header`:
 </div>
 ```
 
-<iframe src="examples/cores.html" height="500" width="700" title="Cores"></iframe>
+<iframe src="examples/cores.html" height="600" width="700" title="Cores"></iframe>
 
 ---
 
