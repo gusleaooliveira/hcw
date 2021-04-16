@@ -1,0 +1,25 @@
+{
+  "name": "hcw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "./node_modules/sass/sass.js --watch sass/main.scss docs/css/hcw.min.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusleaooliveira/hcw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusleaooliveira/hcw/issues"
+  },
+  "homepage": "https://github.com/gusleaooliveira/hcw#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
